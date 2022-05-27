@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E917F622841296700C0D3B0 /* Handi-Count WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5E917F612841296700C0D3B0 /* Handi-Count WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5E917F672841296B00C0D3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E917F662841296B00C0D3B0 /* Assets.xcassets */; };
+		5E917F6D2841296C00C0D3B0 /* Handi-Count WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5E917F6C2841296C00C0D3B0 /* Handi-Count WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5E917F722841296C00C0D3B0 /* Handi_CountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E917F712841296C00C0D3B0 /* Handi_CountApp.swift */; };
+		5E917F762841296C00C0D3B0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E917F752841296C00C0D3B0 /* NotificationController.swift */; };
+		5E917F782841296C00C0D3B0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E917F772841296C00C0D3B0 /* NotificationView.swift */; };
+		5E917F7A2841296C00C0D3B0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E917F792841296C00C0D3B0 /* ComplicationController.swift */; };
+		5E917F7C2841296E00C0D3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E917F7B2841296E00C0D3B0 /* Assets.xcassets */; };
+		5E917F7F2841296E00C0D3B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E917F7E2841296E00C0D3B0 /* Preview Assets.xcassets */; };
+		5E917F90284129B200C0D3B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E917F8F284129B200C0D3B0 /* ContentView.swift */; };
+		5E917F92284129B800C0D3B0 /* NewRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E917F91284129B800C0D3B0 /* NewRoundView.swift */; };
+		5E917F94284129C000C0D3B0 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E917F93284129C000C0D3B0 /* RoundView.swift */; };
+		5E917F96284129D000C0D3B0 /* HandicapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E917F95284129D000C0D3B0 /* HandicapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E917F632841296700C0D3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E917F572841296600C0D3B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E917F602841296700C0D3B0;
+			remoteInfo = "Handi-Count WatchKit App";
+		};
+		5E917F6E2841296C00C0D3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E917F572841296600C0D3B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E917F6B2841296C00C0D3B0;
+			remoteInfo = "Handi-Count WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E917F872841296E00C0D3B0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5E917F6D2841296C00C0D3B0 /* Handi-Count WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E917F8B2841296E00C0D3B0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5E917F622841296700C0D3B0 /* Handi-Count WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E917F5D2841296700C0D3B0 /* Handi-Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handi-Count.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E917F612841296700C0D3B0 /* Handi-Count WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handi-Count WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E917F662841296B00C0D3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E917F6C2841296C00C0D3B0 /* Handi-Count WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Handi-Count WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E917F712841296C00C0D3B0 /* Handi_CountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handi_CountApp.swift; sourceTree = "<group>"; };
+		5E917F752841296C00C0D3B0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5E917F772841296C00C0D3B0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		5E917F792841296C00C0D3B0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		5E917F7B2841296E00C0D3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E917F7E2841296E00C0D3B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E917F802841296E00C0D3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E917F812841296E00C0D3B0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5E917F8F284129B200C0D3B0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../App Projects/Untitled/HandiCount/HandiCount WatchKit Extension/ContentView.swift"; sourceTree = "<group>"; };
+		5E917F91284129B800C0D3B0 /* NewRoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRoundView.swift; sourceTree = "<group>"; };
+		5E917F93284129C000C0D3B0 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		5E917F95284129D000C0D3B0 /* HandicapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandicapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E917F692841296C00C0D3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E917F562841296600C0D3B0 = {
+			isa = PBXGroup;
+			children = (
+				5E917F652841296700C0D3B0 /* Handi-Count WatchKit App */,
+				5E917F702841296C00C0D3B0 /* Handi-Count WatchKit Extension */,
+				5E917F5E2841296700C0D3B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E917F5E2841296700C0D3B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E917F5D2841296700C0D3B0 /* Handi-Count.app */,
+				5E917F612841296700C0D3B0 /* Handi-Count WatchKit App.app */,
+				5E917F6C2841296C00C0D3B0 /* Handi-Count WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E917F652841296700C0D3B0 /* Handi-Count WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5E917F662841296B00C0D3B0 /* Assets.xcassets */,
+			);
+			path = "Handi-Count WatchKit App";
+			sourceTree = "<group>";
+		};
+		5E917F702841296C00C0D3B0 /* Handi-Count WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5E917F712841296C00C0D3B0 /* Handi_CountApp.swift */,
+				5E917F8F284129B200C0D3B0 /* ContentView.swift */,
+				5E917F752841296C00C0D3B0 /* NotificationController.swift */,
+				5E917F91284129B800C0D3B0 /* NewRoundView.swift */,
+				5E917F95284129D000C0D3B0 /* HandicapView.swift */,
+				5E917F93284129C000C0D3B0 /* RoundView.swift */,
+				5E917F772841296C00C0D3B0 /* NotificationView.swift */,
+				5E917F792841296C00C0D3B0 /* ComplicationController.swift */,
+				5E917F7B2841296E00C0D3B0 /* Assets.xcassets */,
+				5E917F802841296E00C0D3B0 /* Info.plist */,
+				5E917F812841296E00C0D3B0 /* PushNotificationPayload.apns */,
+				5E917F7D2841296E00C0D3B0 /* Preview Content */,
+			);
+			path = "Handi-Count WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5E917F7D2841296E00C0D3B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E917F7E2841296E00C0D3B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E917F5C2841296700C0D3B0 /* Handi-Count */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E917F8C2841296E00C0D3B0 /* Build configuration list for PBXNativeTarget "Handi-Count" */;
+			buildPhases = (
+				5E917F5B2841296700C0D3B0 /* Resources */,
+				5E917F8B2841296E00C0D3B0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E917F642841296700C0D3B0 /* PBXTargetDependency */,
+			);
+			name = "Handi-Count";
+			productName = "Handi-Count";
+			productReference = 5E917F5D2841296700C0D3B0 /* Handi-Count.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5E917F602841296700C0D3B0 /* Handi-Count WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E917F882841296E00C0D3B0 /* Build configuration list for PBXNativeTarget "Handi-Count WatchKit App" */;
+			buildPhases = (
+				5E917F5F2841296700C0D3B0 /* Resources */,
+				5E917F872841296E00C0D3B0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E917F6F2841296C00C0D3B0 /* PBXTargetDependency */,
+			);
+			name = "Handi-Count WatchKit App";
+			productName = "Handi-Count WatchKit App";
+			productReference = 5E917F612841296700C0D3B0 /* Handi-Count WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5E917F6B2841296C00C0D3B0 /* Handi-Count WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E917F842841296E00C0D3B0 /* Build configuration list for PBXNativeTarget "Handi-Count WatchKit Extension" */;
+			buildPhases = (
+				5E917F682841296C00C0D3B0 /* Sources */,
+				5E917F692841296C00C0D3B0 /* Frameworks */,
+				5E917F6A2841296C00C0D3B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handi-Count WatchKit Extension";
+			productName = "Handi-Count WatchKit Extension";
+			productReference = 5E917F6C2841296C00C0D3B0 /* Handi-Count WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E917F572841296600C0D3B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5E917F5C2841296700C0D3B0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5E917F602841296700C0D3B0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5E917F6B2841296C00C0D3B0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5E917F5A2841296600C0D3B0 /* Build configuration list for PBXProject "Handi-Count" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E917F562841296600C0D3B0;
+			productRefGroup = 5E917F5E2841296700C0D3B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E917F5C2841296700C0D3B0 /* Handi-Count */,
+				5E917F602841296700C0D3B0 /* Handi-Count WatchKit App */,
+				5E917F6B2841296C00C0D3B0 /* Handi-Count WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E917F5B2841296700C0D3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E917F5F2841296700C0D3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E917F672841296B00C0D3B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E917F6A2841296C00C0D3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E917F7F2841296E00C0D3B0 /* Preview Assets.xcassets in Resources */,
+				5E917F7C2841296E00C0D3B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E917F682841296C00C0D3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E917F96284129D000C0D3B0 /* HandicapView.swift in Sources */,
+				5E917F762841296C00C0D3B0 /* NotificationController.swift in Sources */,
+				5E917F94284129C000C0D3B0 /* RoundView.swift in Sources */,
+				5E917F90284129B200C0D3B0 /* ContentView.swift in Sources */,
+				5E917F7A2841296C00C0D3B0 /* ComplicationController.swift in Sources */,
+				5E917F722841296C00C0D3B0 /* Handi_CountApp.swift in Sources */,
+				5E917F92284129B800C0D3B0 /* NewRoundView.swift in Sources */,
+				5E917F782841296C00C0D3B0 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E917F642841296700C0D3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E917F602841296700C0D3B0 /* Handi-Count WatchKit App */;
+			targetProxy = 5E917F632841296700C0D3B0 /* PBXContainerItemProxy */;
+		};
+		5E917F6F2841296C00C0D3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E917F6B2841296C00C0D3B0 /* Handi-Count WatchKit Extension */;
+			targetProxy = 5E917F6E2841296C00C0D3B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E917F822841296E00C0D3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E917F832841296E00C0D3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E917F852841296E00C0D3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Handi-Count\\ WatchKit\\ Extension/Preview\\ Content Handi-Count\\ WatchKit\\ App/Assets.xcassets";
+				DEVELOPMENT_TEAM = 883DK65VTV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Handi-Count WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Handi-Count WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Handi_Count_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colenelson.Handi-Count.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		5E917F862841296E00C0D3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Handi-Count\\ WatchKit\\ Extension/Preview\\ Content Handi-Count\\ WatchKit\\ App/Assets.xcassets";
+				DEVELOPMENT_TEAM = 883DK65VTV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Handi-Count WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Handi-Count WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Handi_Count_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colenelson.Handi-Count.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		5E917F892841296E00C0D3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 883DK65VTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Handi_Count_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Handi-Count WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colenelson.Handi-Count.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		5E917F8A2841296E00C0D3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 883DK65VTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Handi_Count_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Handi-Count WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colenelson.Handi-Count.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		5E917F8D2841296E00C0D3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 883DK65VTV;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colenelson.Handi-Count";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E917F8E2841296E00C0D3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 883DK65VTV;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colenelson.Handi-Count";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E917F5A2841296600C0D3B0 /* Build configuration list for PBXProject "Handi-Count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E917F822841296E00C0D3B0 /* Debug */,
+				5E917F832841296E00C0D3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E917F842841296E00C0D3B0 /* Build configuration list for PBXNativeTarget "Handi-Count WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E917F852841296E00C0D3B0 /* Debug */,
+				5E917F862841296E00C0D3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E917F882841296E00C0D3B0 /* Build configuration list for PBXNativeTarget "Handi-Count WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E917F892841296E00C0D3B0 /* Debug */,
+				5E917F8A2841296E00C0D3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E917F8C2841296E00C0D3B0 /* Build configuration list for PBXNativeTarget "Handi-Count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E917F8D2841296E00C0D3B0 /* Debug */,
+				5E917F8E2841296E00C0D3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E917F572841296600C0D3B0 /* Project object */;
+}
