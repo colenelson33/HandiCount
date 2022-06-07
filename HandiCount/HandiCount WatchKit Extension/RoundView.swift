@@ -10,7 +10,6 @@ import SwiftUI
 struct RoundView: View {
   //  var check: Bool
   //  var holeCount: Int
-    //does this work??
     
     @AppStorage("check") var checked: Bool = true
     @AppStorage("coursePar") var coursePar: String = "0"
@@ -30,13 +29,12 @@ struct RoundView: View {
         VStack{
             HStack{
         Text("Hole \(hole)")
-                .font(.system(size: 23))
+                .font(.system(size: 30))
                 .foregroundColor(.green)
                 .cornerRadius(15)
                 .padding()
                 Spacer()
                 Text("Score: \(currentScore)")
-                    .font(.system(size: 13))
             }
             Spacer()
             
@@ -100,7 +98,7 @@ struct RoundView: View {
                         score = 0
                         }
                     })
-                    .padding()
+                    .padding(.horizontal)
                 Spacer()
             Image(systemName: "arrow.right")
                     .onTapGesture(perform: {
@@ -112,7 +110,7 @@ struct RoundView: View {
                         score = 0
                         }
                     })
-                    .padding()
+                    .padding(.horizontal)
                 
             }
             
@@ -155,12 +153,10 @@ struct RoundView: View {
             
 
         }.onAppear {
-            roundScore = [0]
             checked = true
             isDone = false
             currentScore = 0
         }
-        Spacer()
     }
 }
 

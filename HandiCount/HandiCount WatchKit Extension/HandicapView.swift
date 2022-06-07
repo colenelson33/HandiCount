@@ -18,7 +18,6 @@ struct HandicapView: View {
                 .foregroundColor(.green)
             .font(.subheadline)
         Text("This means that on average, you shoot \(roundedHandicap) over par in every round you play. To be considered a \"scratch\" golfer you need to have a 0 handicap.")
-                .font(.system(size: 10))
              }
         .padding()
     }
